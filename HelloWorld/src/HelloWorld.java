@@ -9,9 +9,12 @@ public class HelloWorld {
 		
 		String userInput = scanner.nextLine();
 		
-		if(userInput == "Hello"){
+		if(userInput == "Hello!"){
 			System.out.println("Hello world!");
 		}
 		
+		else if(userInput == "Goodbye!"){
+			System.out.println("Goodbye world!");
+		}
 	}
 }
