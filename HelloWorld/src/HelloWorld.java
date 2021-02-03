@@ -16,5 +16,9 @@ public class HelloWorld {
 		else if(userInput == "Goodbye!"){
 			System.out.println("Goodbye world!");
 		}
+		
+		else if(userInput == "Nothing") {
+			System.out.println("Wow! That's just mean...");
+		}
 	}
 }
