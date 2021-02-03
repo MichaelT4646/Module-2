@@ -20,5 +20,9 @@ public class HelloWorld {
 		else if(userInput == "Nothing") {
 			System.out.println("Wow! That's just mean...");
 		}
+		
+		else {
+			System.out.println("You should try to say something the world will want to hear.");
+		}
 	}
 }
